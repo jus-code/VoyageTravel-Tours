@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip - Voyage</title>
+    <link rel="shortcut icon" href="images/booking.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles_forms.css"/>
+</head>
+<body>
+
+    <div class="bgs">
+    <header>
+        <div class="logo">
+            <img src="images/Voyage.png" alt="Voyage Logo" class="logo-img" >
+        </div>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="forms.html">Forms</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <h1>Book Your Trip</h1>
+        <form class="booking-form">
+            <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="middleName">Middle Name</label>
+                <input type="text" id="middleName" name="middleName">
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9\+\-\s]+" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="departureDate">Departure Date *</label>
+                <input type="date" id="departureDate" name="departureDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="departureTime">Departure Time *</label>
+                <input type="time" id="departureTime" name="departureTime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="returnDate">Return Date *</label>
+                <input type="date" id="returnDate" name="returnDate" required>
+            </div>
+
+            <div class="form-group">
+                <label for="returnTime">Return Time *</label>
+                <input type="time" id="returnTime" name="returnTime" required>
+            </div>
+
+            <div class="form-group">
+                <label for="groupSize">Number of People *</label>
+                <input type="number" id="groupSize" name="groupSize" min="1" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Book Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Travel Vlog</h3>
+                <p>Want to know more travel trendings. Subscribe to our travel vlog!</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email address">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Schedule</h3>
+                <ul>
+                    <li><strong>Monday - Saturday</strong></li>
+                    <li>Office Hours: 9am - 8pm</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow us</h3>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">X(formely Twitter)</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul class="contact-info">
+                    <li>(02) 721-8907 or 0964-376-1087</li>
+                    <li>Email: inquiry.voyagetravel@gmail.com</li>
+                    <li>Km.37 Camella Sta. Maria, Bulacan</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
